@@ -139,9 +139,119 @@
                         <div class="card mb-4">
                           <div class="card-header">
                             <i class="fas fa-bars mr-1"></i>
-                            按鈕範本
+                            表單資料(List)查詢顯示版型
                           </div>
                           <div class="card-body">
+                            <div class="list-group">
+                              <a href="#" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">1. 鋼筋一</h5>
+                                  <small>單位：KG</small>
+                                </div>
+                                <p class="mb-1">結構工程</p>
+                                <small>備註：</small>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">2. 鋼筋二</h5>
+                                  <small>單位：KG</small>
+                                </div>
+                                <p class="mb-1">結構工程</p>
+                                <small>備註：</small>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">3. 混凝土</h5>
+                                  <small>單位：M2</small>
+                                </div>
+                                <p class="mb-1">結構工程</p>
+                                <small>備註：</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card mb-4">
+                          <div class="card-header">
+                            <i class="fas fa-table mr-1"></i>
+                            編輯資料(Edit)
+                          </div>
+                          <div class="card-body">
+                          <div class="form">
+                            <div>
+                              <i class="material-icons align-middle pb-1">edit</i>
+                              編輯資料
+                            </div>
+                            <hr>
+                            <form>
+                                <div class="form-group">
+                                  <label class="small mb-1" for="inputID">工項編碼</label>
+                                  <input class="form-control py-4" id="inputID" type="text" placeholder="" value="234234"/>
+                                </div>
+                                <div class="form-group">
+                                  <label class="small mb-1" for="inputName">工程名稱</label>
+                                  <input class="form-control py-4" id="inputName" type="text" placeholder="" value="新建工程案一"/>
+                                </div>
+                                <div class="form-group">
+                                  <label class="small mb-1" for="inputName">計價單位</label>
+                                  <input class="form-control py-4" id="inputName" type="text" placeholder="" value="20000000"/>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                  <label class="small mb-1" for="inputName">項目一</label>
+                                  <select class="form-control">
+                                    <option>選項一</option>
+                                    <option>選項二</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                  <label class="small mb-1" for="inputName">項目二</label>
+                                  <select class="form-control">
+                                    <option>選項一</option>
+                                    <option>選項二</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                  <label class="small mb-1" for="inputName">時機</label>
+                                  <br>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">施工前</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">施工中</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">施工後</label>
+                                  </div>
+                                </div>
+                                <hr>
+                                <div class="form-group text-right mt-4 mb-0">
+                                  <a class="btn btn-secondary" href="#">取消</a>
+                                  <a class="btn btn-primary" href="#">儲存</a>
+                                </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="card mb-4">
+                          <div class="card-header">
+                            <i class="fas fa-bars mr-1"></i>
+                            按鈕列與按鈕範本
+                          </div>
+                          <div class="card-body">
+                            <div class="row border-bottom px-3 py-3">
+                              <div class="btn-group mx-1" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-outline-success">＋ 新增</button>
+                                <button type="button" class="btn btn-outline-secondary">返回</button>
+                                <button type="button" class="btn btn-outline-secondary">更多...</button>
+                              </div>
+
+                              <button type="button" class="btn btn-primary mx-1">儲存 / 確定</button>
+                              <button type="button" class="btn btn-secondary mx-1">取消</button>
+                              <button type="button" class="btn btn-danger mx-1">刪除</button>
+                            </div>
                             <div class="row my-2">
                                 <div class="col-xl-3 col-md-6 text-center my-2">
                                     <button type="button" name="button" class="btn btn-light btn-outline-primary py-5 px-5 top-btn shadow">
@@ -282,7 +392,6 @@
                                 </div>
                             </div>
                           </div>
-
                         </div>
 
                     </div>
